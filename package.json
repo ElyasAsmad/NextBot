@@ -1,0 +1,31 @@
+{
+  "name": "nextbot-v2",
+  "version": "1.0.0",
+  "description": "Built in 2021 by ElyasAsmad",
+  "main": "src/index.js",
+  "author": "Elyas Asmad",
+  "license": "MIT",
+  "scripts": {
+    "start": "node .",
+    "deploy": "node ./src/deploy-commands.js"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^0.6.0",
+    "@discordjs/opus": "^0.6.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "@discordjs/voice": "^0.6.0",
+    "axios": "^0.21.4",
+    "discord-api-types": "^0.23.1",
+    "discord-together": "^1.2.0",
+    "discord.js": "^13.1.0",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^4.4.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "html-escaper": "^3.0.3",
+    "libsodium-wrappers": "^0.7.9",
+    "moment": "^2.29.1",
+    "youtube-search-without-api-key": "^1.0.6",
+    "ytdl-core": "^4.9.1",
+    "ytdl-core-discord": "^1.3.1"
+  }
+}
